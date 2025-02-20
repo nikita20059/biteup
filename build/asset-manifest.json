@@ -1,17 +1,17 @@
 {
   "files": {
     "main.css": "/biteup/static/css/main.5e45be83.css",
-    "main.js": "/biteup/static/js/main.25b55185.js",
+    "main.js": "/biteup/static/js/main.261a1307.js",
     "static/js/453.2d9d8564.chunk.js": "/biteup/static/js/453.2d9d8564.chunk.js",
     "static/media/backgroundimg1.PNG": "/biteup/static/media/backgroundimg1.7d193c1193b8df481f34.PNG",
     "static/media/backgroundimg.jpg": "/biteup/static/media/backgroundimg.31a964f1910aa6cfa99d.jpg",
     "index.html": "/biteup/index.html",
     "main.5e45be83.css.map": "/biteup/static/css/main.5e45be83.css.map",
-    "main.25b55185.js.map": "/biteup/static/js/main.25b55185.js.map",
+    "main.261a1307.js.map": "/biteup/static/js/main.261a1307.js.map",
     "453.2d9d8564.chunk.js.map": "/biteup/static/js/453.2d9d8564.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.5e45be83.css",
-    "static/js/main.25b55185.js"
+    "static/js/main.261a1307.js"
   ]
 }
