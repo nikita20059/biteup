@@ -33,7 +33,7 @@ function App() {
       <header className="header-container">
       <div className="logo">Biteup.</div>
       <nav className="nav-links">
-        <Link to="/home">Home</Link>
+        <Link to="/">Home</Link>
         <Link to="/about">About Us</Link>
         <Link to="/contact">Contact</Link>
       </nav>
@@ -41,6 +41,7 @@ function App() {
     </header>
       <Routes>
         <Route path="/feedback" element={<Feedback />} />
+        <Route path="/" element={<Home />} />
         <Route path="/home" element={<Home />} />
         <Route path="/contact" element={<Contact />} />
         <Route path="/about" element={<About />} />

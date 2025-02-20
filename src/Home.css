@@ -69,7 +69,7 @@
 
 
 .boxModel{
-  height: 60vh;
+  height: 47vh;
   width: 100vh;
 }
 .founderss-title {
@@ -759,7 +759,7 @@
   gap: 30px;
   max-width: 900px;
   margin: 0 auto;
-  margin-left: 30px;
+  margin-left: 109px;
 }
 
 .special-item {
@@ -785,7 +785,7 @@
   align-content: space-around;
   flex-wrap: wrap;
   margin-top: -30%;
-  margin-right: 299px;
+  margin-right: 192px;
 }
 
 .special-number {
