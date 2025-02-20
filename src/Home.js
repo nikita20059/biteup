@@ -164,43 +164,48 @@ import BoxModelViewer from "./BoxModelViewer";
 
 
 const Home = () => {
-  const img9 = "/Img9.png";
-  const img10 = "/Img10.png";
-  const img13 = "/Img13.png";
-  const img14 = "/Img14.png";
-  const img15 = "/Img15.png";
-  const img16 = "/Img16.png";
-  const img17 = "/Img17.png";
-  const img18 = "/Img18.png";
-  const img19 = "/Img19.png";
-  const img19bg = "/Img19bg.png";
-  const img20 = "/Img20.png";
-  const img21 = "/Img21.png";
-  const img22 = "/Img22.png";
-  const img23 = "/Img23.png";
+  const img9 = process.env.PUBLIC_URL + "/img9.png";
+
+  // const img9 = "/img9.png";
+  const img10 = process.env.PUBLIC_URL + "/img10.png";
+  const img11 = process.env.PUBLIC_URL + "/img11.png";
+  const img12 = process.env.PUBLIC_URL + "/img12.png";
+  const img13 = process.env.PUBLIC_URL + "/img13.png";
+  const img14 = process.env.PUBLIC_URL + "/img14.png";
+  const img15 = process.env.PUBLIC_URL + "/img15.png";
+  const img16 = process.env.PUBLIC_URL + "/img16.png";
+  const img17 = process.env.PUBLIC_URL + "/img17.png";
+  const img18 = process.env.PUBLIC_URL + "/img18.png";
+  const img19 = process.env.PUBLIC_URL + "/img19.png";
+  const img19bg =process.env.PUBLIC_URL +  "/img19bg.png";
+  const img20 = process.env.PUBLIC_URL +  "/img20.png";
+  const img21 = process.env.PUBLIC_URL +  "/img21.png";
+  const img22 = process.env.PUBLIC_URL +  "/img22.png";
+  const img23 = process.env.PUBLIC_URL +  "/img23.png";
 
 
   const [selected, setSelected] = useState(null);
 
   const teamMembers = [
-    { id: 1, name: "Pavan Shimpi", image: "/img11.png" },
-    { id: 2, name: "Pavan Shimpi", image: "/img11.png" },
-    { id: 3, name: "Pavan Shimpi", image: "/img11.png" },
-    { id: 4, name: "Pavan Shimpi", image: "/img11.png" },
-    { id: 5, name: "Pavan Shimpi", image: "/img11.png" },
-    { id: 6, name: "Pavan Shimpi", image: "/img11.png" },
-  ];
+    { id: 1, name: "Pavan Shimpi", image: img11 },
+    { id: 2, name: "Pavan Shimpi", image: img11 },
+    { id: 3, name: "Pavan Shimpi", image: img11 },
+    { id: 4, name: "Pavan Shimpi", image: img11 },
+    { id: 5, name: "Pavan Shimpi", image: img11 },
+    { id: 6, name: "Pavan Shimpi", image: img11 }
+];
+
   const awardsData = [
-    { title: "The Thali That Stole Your Heart Award", image: "img12.png" },
-    { title: "Zero Maggi Days Champion", image: "img12.png" },
-    { title: "Zero Maggi Days Champion", image: "img12.png" },
-    { title: "Zero Maggi Days Champion", image: "img12.png" },
+    { title: "The Thali That Stole Your Heart Award", image: img12 },
+    { title: "Zero Maggi Days Champion", image: img12 },
+    { title: "Zero Maggi Days Champion", image: img12 },
+    { title: "Zero Maggi Days Champion", image: img12 },
 
   ];
   const founders = [
-    { name: "Pavan Shimpi", role: "CEO", image: "/img11.png" },
-    { name: "Pavan Shimpi", role: "CEO", image: "/img11.png" },
-    { name: "Pavan Shimpi", role: "CEO", image: "/img11.png" },
+    { name: "Pavan Shimpi", role: "CEO", image: img11 },
+    { name: "Pavan Shimpi", role: "CEO", image: img11 },
+    { name: "Pavan Shimpi", role: "CEO", image: img11 },
   ];
   return (
     <>

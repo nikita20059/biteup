@@ -3,15 +3,21 @@ import "./About.css"; // Import the CSS file
 import { FaChartLine } from "react-icons/fa";
 import { FaFacebookF, FaTwitter, FaYoutube, FaPaperPlane } from "react-icons/fa";
 
+const img11 = process.env.PUBLIC_URL + "/img11.png";
+
 const founders = [
-  { name: "Pavan Shimpi", role: "CEO", img: "/img11.png" },
-  { name: "Pavan Shimpi", role: "CEO", img: "/img11.png" },
-  { name: "Pavan Shimpi", role: "CEO", img: "/img11.png" },
+  { name: "Pavan Shimpi", role: "CEO", img: img11 },
+  { name: "Pavan Shimpi", role: "CEO", img: img11 },
+  { name: "Pavan Shimpi", role: "CEO", img: img11 },
 ];
-const img24="/img24.png";
-const img25="/img25.png";
-const img26="/img26.png";
-const img27="/img27.png";
+const img24 = process.env.PUBLIC_URL + "/img24.png";
+const img25 = process.env.PUBLIC_URL + "/img25.png";
+const img26 = process.env.PUBLIC_URL + "/img26.png";
+const img27 = process.env.PUBLIC_URL + "/img27.png";
+
+// const img25="/img25.png";
+// const img26="/img26.png";
+// const img27="/img27.png";
 const About = () => {
   return (
     <>

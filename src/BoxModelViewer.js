@@ -5,8 +5,8 @@ import { GLTFLoader } from "three/examples/jsm/loaders/GLTFLoader";
 import { useLoader } from "@react-three/fiber";
 
 const BoxModel = () => {
-  const gltf = useLoader(GLTFLoader, "/model.glb"); // Load the .glb model
-
+  // const gltf = useLoader(GLTFLoader, "/public/model.glb"); // Load the .glb model
+  const gltf = useLoader(GLTFLoader, process.env.PUBLIC_URL + "/model.glb");
   return <primitive object={gltf.scene} scale={4} />;
 };
 
