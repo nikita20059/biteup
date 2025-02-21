@@ -718,10 +718,13 @@ import BoxModelViewer from "./BoxModelViewer";
 
 const Home = () => {
   const img9 = process.env.PUBLIC_URL + "/img9.png";
+  // const img9 = "../public/backgroundimg1.PNG";
 
   // const img9 = "/img9.png";
   const img10 = process.env.PUBLIC_URL + "/img10.png";
-  const img11 = process.env.PUBLIC_URL + "/../public/img11.PNG";
+  const img11 = process.env.PUBLIC_URL + "/img11.png";
+
+  // const img11 = process.env.PUBLIC_URL + "/../public/img11.PNG";
   const img12 = process.env.PUBLIC_URL + "/img12.png";
   const img13 = process.env.PUBLIC_URL + "/img13.png";
   const img14 = process.env.PUBLIC_URL + "/img14.png";

@@ -2,7 +2,7 @@
   "name": "biteup",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://nikita20059.github.io/biteup",
+  "homepage": "https://nikita20059.github.io/biteup/",
   "dependencies": {
     "@findingzumo/image-hover-overlay": "^1.0.0",
     "@react-three/drei": "^9.121.5",
