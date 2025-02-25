@@ -714,9 +714,12 @@ import { RxArrowBottomRight } from "react-icons/rx";
 import { FaFacebookF, FaTwitter, FaYoutube, FaPaperPlane } from "react-icons/fa";
 import HoverVideoPlayer from 'react-hover-video-player';
 import BoxModelViewer from "./BoxModelViewer";
+import { Grid } from "@mui/material";
 
 
 const Home = () => {
+
+
   const img9 = process.env.PUBLIC_URL + "/img9.png";
   // const img9 = "../public/backgroundimg1.PNG";
 
@@ -942,7 +945,7 @@ const Home = () => {
           {/* <p className="special-text">Fast & Fresh Delivery</p> */}
         </div>          <p className="special-textt">Fast & Fresh Delivery</p>
 
-        <br></br><br></br><br></br><br></br><br></br><br></br><br></br>
+        {/* <br></br><br></br><br></br><br></br><br></br><br></br><br></br> */}
 
     </div>
 

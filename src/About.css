@@ -394,3 +394,9 @@
       transform: rotate(360deg);
     }
   }
+  @media (max-width: 768px) {
+  .section-title {
+
+    margin-left: 130px;
+}
+  }
